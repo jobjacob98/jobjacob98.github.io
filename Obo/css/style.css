@@ -102,6 +102,9 @@ textarea.form-control {
 .left-align {
   text-align: left;
 }
+.display-height {
+  height: 10px;
+}
 .footer {
   height: 200px;
   background-color: #f8f9fa;
@@ -129,6 +132,9 @@ textarea.form-control {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
+  }
+  .display-height {
+    height: 15px;
   }
   .footer-padding-top {
     margin-top: 8px;
