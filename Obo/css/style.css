@@ -22,7 +22,7 @@
 .color-blue {
   color: #007bff !important;
 }
-.margin-top-30 {
+.margin-top {
   padding-top: 70px;
 }
 .contact-subj-line {
@@ -39,67 +39,77 @@ textarea.form-control {
   display: inline;
 }
 .social-media-list-item {
-  margin-bottom: 5px;
+  margin-bottom: 14px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 .btn-facebook {
   color: #ffffff;
   width: 150px;
   background-color: #3b5999;
 }
+.facebook-hover, .btn-facebook:hover .facebook-not-hover {
+  display: none;
+}
+.btn-facebook:hover .facebook-hover {
+  display: inline;
+}
 .btn-twitter {
   color: #ffffff;
   width: 150px;
   background-color: #55acee;
+}
+.twitter-hover, .btn-twitter:hover .twitter-not-hover {
+  display: none;
+}
+.btn-twitter:hover .twitter-hover {
+  display: inline;
 }
 .btn-youtube {
   color: #ffffff;
   width: 150px;
   background-color: #cd201f;
 }
+.youtube-hover, .btn-youtube:hover .youtube-not-hover {
+  display: none;
+}
+.btn-youtube:hover .youtube-hover {
+  display: inline;
+}
 .btn-instagram {
   color: #ffffff;
   width: 150px;
   background-color: #e4405f;
 }
+.instagram-hover, .btn-instagram:hover .instagram-not-hover {
+  display: none;
+}
+.btn-instagram:hover .instagram-hover {
+  display: inline;
+}
+.btn-facebook:hover {
+  background-color: #808080;
+}
+.btn-twitter:hover {
+  background-color: #808080;
+}
+.btn-youtube:hover {
+  background-color: #808080;
+}
+.btn-instagram:hover {
+  background-color: #808080;
+}
+.left-align {
+  text-align: left;
+}
 .footer {
   height: 200px;
   background-color: #f8f9fa;
 }
-/*@media (min-width: 1200px) {
-  .contact-margin-left {
-    margin-left: 300px;
-  }
-  .contact-margin-right {
-    margin-right: 100px;
-  }
-  .contact-margin-top {
-    margin-top: 70px;
-  }
-  .social-media-list li {
-    display: inline;
-  }
-  .divider {
-    display: none;
-  }
-}
-@media (min-width: 992px) {
-  .contact-margin-left {
-    margin-left: 100px;
-  }
-  .contact-margin-right {
-    margin-right: 100px;
-  }
-  .contact-margin-top {
-    margin-top: 70px;
-  }
-  .social-media-list li {
-    display: inline;
-  }
-  .divider {
-    display: none;
-  }
-}*/
 @media (min-width: 768px) {
+  .margin-top {
+    padding-top: 72px;
+  }
   .contact-margin-left {
     margin-left: 90px;
   }
@@ -114,5 +124,13 @@ textarea.form-control {
   }
   .divider {
     display: none;
+  }
+  .social-media-list-item {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .footer-padding-top {
+    margin-top: 8px;
   }
 }
