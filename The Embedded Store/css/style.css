@@ -1,139 +1,97 @@
-.brand_container {
-  background-color: #DADFE1;
+.brand-font {
+    font-family: 'Vollkorn', serif;
+    font-size: 25px;
 }
-.brand_name {
-  font-family: 'Alfa Slab One', cursive;
-  padding-top: 15px;
+.padding-top-5 {
+  padding-top: 5px;
 }
-.brand_name span {
-  display: block;
-  padding-bottom: 5px;
+.padding-top-10 {
+  padding-top: 10px;
 }
-.brand_blue {
-  color: #0068B7;
-  background: none;
-  padding-right: 20px;
+.padding-top-30 {
+  padding-top: 30px;
 }
-.brand_yellow {
-  color: #F39800;
-  background: none;
-  padding-right: 20px;
+.padding-left-15 {
+  padding-left: 15px;
 }
-.search_large {
-  padding-top: 40px;
+.padding-left-10 {
+  padding-left: 10px;
 }
-.search_btn  {
-  color:  #0068B7 !important;
-  border-color: #0068B7 !important;
-}
-.search_btn:hover  {
-  color:  #FFFFFF !important;
-  background-color: #0068B7 !important;
-  border-color: #0068B7 !important;
-}
-.login_signup {
-  padding-top: 15px;
-  padding-left: 30px;
-}
-.login_signup_btn_color {
-  background-color: #F39800 !important;
-  border-color:  #F39800 !important;
-}
-.login_signup_btn_color:hover {
-  background-color: #F5A21B !important;
-  border-color:  #F5A21B !important;
-}
-.login_menu {
+.login-menu {
   width: 320px;
   height: 380px;
 }
-.login_btn {
-  background-color: #0068B7 !important;
-  border-color:  #0068B7 !important;
+.font-color-yellow {
+  color: #ffc107;
 }
-.login_btn:hover {
-  background-color: #187FC4 !important;
-  border-color:  #187FC4 !important;
+.dropdown-item:hover {
+  color: #007bff;
 }
-.padding_top_8 {
-  padding-top: 8px;
+.divider {
+  border: 1px solid rgba(0,0,0,.0625);
 }
-.navbar_bottom {
-  padding-bottom: 20px;
+.color-white {
+  color: #ffffff;
 }
-.login_large {
-  padding-right: 20px;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /*background-color: #007bff;*/
 }
-@media (max-width: 575px) {
-  .search_medium {
-    display: none;
-  }
-  .login_extra_small {
-    float: right;
-  }
-  .login_small {
-    display: none;
-  }
-  .navbar_bottom {
-    padding-bottom: 10px;
-  }
-  .pullright, .dropdown-menu {
-    left: auto;
-    right: 0px;
-  }
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  height: 524px;
+  top: 262px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*background-color: #007bff;*/
+  /*background-color: #343a40;*/
+  overflow: hidden;
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .search {
-    padding-top: 0px;
-  }
-  .navbar_bottom {
-    padding-bottom: 10px;
-  }
-  .login_small {
-    float: right;
-    padding-top: 10px;
-  }
+.carousel-wrapper .carousel {
+  position: absolute;
+  top: 53%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
 }
-@media (min-width: 576px) {
-  .search_menu {
-    display: none;
-  }
-  .login_extra_small {
-    display: none;
-  }
+.carousel-wrapper .carousel .carousel-cell {
+  padding: 10px;
+  background-color: #ffffff;
+  width: 20%;
+  height: auto;
+  min-width: 120px;
+  margin: 0 20px;
+  transition: transform 500ms ease;
 }
-@media (max-width: 991px) {
-  .large_size {
-    display: none;
-  }
-  .brand_blue {
-    color: #0068B7;
-    background: none;
-    padding-right: 0px;
-  }
-  .brand_yellow {
-    color: #F39800;
-    background: none;
-    padding-right: 0px;
-  }
-  .login_large {
-    display: none;
-  }
-  .search_large {
-    display: none;
-  }
+.carousel-wrapper .carousel .carousel-cell:hover {
+  transform: scale(1.05);
 }
-@media (min-width: 992px) {
-  .small_size {
-    display: none;
-  }
-  .login_small {
-    display: none;
-  }
-  .search {
-    padding-top: 0px;
-  }
-  .search_medium {
-    display: none;
-  }
+.carousel-wrapper .flickity-page-dots {
+  display: none;
+}
+.carousel-wrapper .flickity-viewport, .carousel-wrapper .flickity-slider {
+  overflow: visible;
+}
+.back-to-top-button {
+  height: 50px;
+  width: 100%;
+  background-color: #343a40;
+  border-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+}
+.back-to-top-button:hover {
+  background-color: #1d2124;
+  border-color: #1d2124;
+  border-radius: 0px;
+  color: #ffffff;
+  text-align: center;
+}
+.footer {
+  height: 100px;
+  /*background-color: #007bff;*/
 }
