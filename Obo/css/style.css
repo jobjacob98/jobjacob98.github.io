@@ -169,6 +169,21 @@ textarea.form-control {
   font-weight: bold;
   color: #55acee;
 }
+.newspaper-icon-color {
+  color: #000000;
+}
+.youtube-icon-color {
+  color: #cd201f;
+}
+.facebook-icon-color {
+  color: #3b5999;
+}
+.instagram-icon-color {
+  color: #e4405f;
+}
+.twitter-icon-color {
+  color: #55acee;
+}
 @media (min-width: 768px) {
   .margin-top {
     padding-top: 72px;
