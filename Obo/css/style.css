@@ -143,6 +143,32 @@ textarea.form-control {
   background-color: #55acee;
   color: #ffffff;
 }
+.dsk-display {
+  display: none;
+}
+.mb-display {
+  display: block;
+}
+.font-bold-newspaper {
+  font-weight: bold;
+  color: #000000;
+}
+.font-bold-youtube {
+  font-weight: bold;
+  color: #cd201f;
+}
+.font-bold-facebook {
+  font-weight: bold;
+  color: #3b5999;
+}
+.font-bold-instagram {
+  font-weight: bold;
+  color: #e4405f;
+}
+.font-bold-twitter {
+  font-weight: bold;
+  color: #55acee;
+}
 @media (min-width: 768px) {
   .margin-top {
     padding-top: 72px;
@@ -172,5 +198,11 @@ textarea.form-control {
   }
   .footer-padding-top {
     margin-top: 8px;
+  }
+  .dsk-display {
+    display: block;
+  }
+  .mb-display {
+    display: none;
   }
 }
