@@ -1,5 +1,5 @@
 html, body {
-  height: 100px;
+  height: 100%;
 }
 .navbar-list-styles {
   margin-left: auto;
@@ -189,10 +189,10 @@ textarea.form-control {
     padding-top: 72px;
   }
   .contact-margin-left {
-    margin-left: 90px;
+    margin-left: 6%;
   }
   .contact-margin-right {
-    margin-right: 30px;
+    margin-right: 2%;
   }
   .contact-margin-top {
     margin-top: 60px;
@@ -206,13 +206,10 @@ textarea.form-control {
   .social-media-list-item {
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 14px;
   }
   .display-height {
     height: 15px;
-  }
-  .footer-padding-top {
-    margin-top: 8px;
   }
   .dsk-display {
     display: block;
