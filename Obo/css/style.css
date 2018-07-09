@@ -1,5 +1,8 @@
 html, body {
+  margin: 0;
+  padding: 0;
   height: 100%;
+  width: 100%;
 }
 .navbar-list-styles {
   margin-left: auto;
@@ -103,7 +106,7 @@ textarea.form-control {
 .nav-bg-color {
   background-color: #f8f9fa;
 }
-.nav-item-newspaper {
+.nav-item-home {
   color: rgba(0,0,0,0.5);
   font-weight: bold;
 }
@@ -123,7 +126,7 @@ textarea.form-control {
   color: rgba(0,0,0,0.5);
   font-weight: bold;
 }
-.nav-item-newspaper:hover {
+.nav-item-home:hover {
   background-color: #000000;
   color: #ffffff;
 }
@@ -149,7 +152,7 @@ textarea.form-control {
 .mb-display {
   display: block;
 }
-.font-bold-newspaper {
+.font-bold-home {
   font-weight: bold;
   color: #000000;
 }
@@ -169,7 +172,7 @@ textarea.form-control {
   font-weight: bold;
   color: #55acee;
 }
-.newspaper-icon-color {
+.home-icon-color {
   color: #000000;
 }
 .youtube-icon-color {
@@ -183,6 +186,60 @@ textarea.form-control {
 }
 .twitter-icon-color {
   color: #55acee;
+}
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  height: 385px;
+  top: 200px;
+  margin-top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.carousel-wrapper .carousel {
+  position: absolute;
+  top: 43%;
+  margin-top: 40px;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+}
+.carousel-wrapper .carousel .carousel-cell {
+  padding: 10px;
+  background-color: #ffffff;
+  width: 20%;
+  height: auto;
+  min-width: 120px;
+  margin: 0 10px;
+  transition: transform 500ms ease;
+}
+.carousel-wrapper .flickity-page-dots {
+  display: none;
+}
+.carousel-wrapper .flickity-viewport, .carousel-wrapper .flickity-slider {
+  overflow: visible;
+}
+.card-des-home {
+  margin-top: 4px;
+  color: rgba(0,0,0,0.5);
+  font-weight: bold;
+}
+.card:hover .card-des-home {
+  color: #000000;
+  text-decoration: none;
+}
+.padding-left-10 {
+  padding-left: 10px;
+}
+.top-135 {
+  top: 200px;
+}
+.top-56 {
+  margin-top: 56px;
+}
+.margin-bottom-14 {
+  margin-bottom: 14px;
 }
 @media (min-width: 768px) {
   .margin-top {
