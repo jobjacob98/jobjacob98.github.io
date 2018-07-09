@@ -107,23 +107,23 @@ textarea.form-control {
   background-color: #f8f9fa;
 }
 .nav-item-home {
-  color: rgba(0,0,0,0.5);
+  color: #000000;
   font-weight: bold;
 }
 .nav-item-youtube {
-  color: rgba(0,0,0,0.5);
+  color: #cd201f;
   font-weight: bold;
 }
 .nav-item-facebook {
-  color: rgba(0,0,0,0.5);
+  color: #3b5999;
   font-weight: bold;
 }
 .nav-item-instagram {
-  color: rgba(0,0,0,0.5);
+  color: #e4405f;
   font-weight: bold;
 }
 .nav-item-twitter {
-  color: rgba(0,0,0,0.5);
+  color: #55acee;
   font-weight: bold;
 }
 .nav-item-home:hover {
@@ -238,8 +238,8 @@ textarea.form-control {
 .top-56 {
   margin-top: 56px;
 }
-.margin-bottom-14 {
-  margin-bottom: 14px;
+.margin-bottom-16 {
+  margin-bottom: 16px;
 }
 @media (min-width: 768px) {
   .margin-top {
