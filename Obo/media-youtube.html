@@ -7,60 +7,159 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Obo | Humanoid Robot</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Obo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav navbar-list-styles">
-          <li class="nav-item">
-            <a class="nav-link nav-item-style" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-item-style" href="blog.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-item-style" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-item-style active-style" href="media-home.html">Media</a>
-          </li>
-          <li class="nav-item padding-right-10">
-            <a class="nav-link nav-item-style" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <button class="btn btn-primary my-2 my-sm-0" type="button"><a class="nav-btn-style">Contribute</a></button>
-          </li>
-        </ul>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Obo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar-list-styles">
+            <li class="nav-item">
+              <a class="nav-link nav-item-style" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item-style" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item-style" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item-style active-style" href="media-home.html">Media</a>
+            </li>
+            <li class="nav-item padding-right-10">
+              <a class="nav-link nav-item-style" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-primary my-2 my-sm-0" type="button"><a class="nav-btn-style">Contribute</a></button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="top-56" role="navigation">
+      <ul class="nav nav-tabs nav-bg-color">
+        <li class="nav-item">
+          <a class="nav-link nav-item-home" href="media-home.html"><span class="dsk-display">Home</span><i class="far fa-newspaper mb-display"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="media-youtube.html"><span class="dsk-display font-bold-youtube">YouTube</span><i class="fab fa-youtube mb-display youtube-icon-color"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-item-facebook" href="media-facebook.html"><span class="dsk-display">Facebook</span><i class="fab fa-facebook-f mb-display"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-item-instagram" href="media-instagram.html"><span class="dsk-display">Instagram</span><i class="fab fa-instagram mb-display"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-item-twitter" href="media-twitter.html"><span class="dsk-display">Twitter</span><i class="fab fa-twitter mb-display"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="container-fluid">
+      <div class="carousel-wrapper">
+        <h4 class="padding-left-10 youtube-icon-color">Uploaded by Others</h4>
+        <div class="carousel" data-flickity='{ "initialIndex": 2 }'>
+          <div class="card carousel-cell" style="width: 18rem;">
+            <a href="#" class="media-img-hover"><img class="card-img-top" src="img/test.jpg" alt="Card image cap">
+              <div class="overlay youtube-bg-color">
+                <div class="img-text">Click to watch the video</div>
+              </div>
+            </a>
+            <span class="card-des-home">Times of India | 18-11-18</span>
+          </div>
+          <div class="card carousel-cell" style="width: 18rem;">
+            <a href="#" class="media-img-hover"><img class="card-img-top" src="img/test.jpg" alt="Card image cap">
+              <div class="overlay youtube-bg-color">
+                <div class="img-text">Click to watch the video</div>
+              </div>
+            </a>
+            <span class="card-des-home">The Hindu | 20-11-18</span>
+          </div>
+          <div class="card carousel-cell" style="width: 18rem;">
+            <a href="#" class="media-img-hover"><img class="card-img-top" src="img/test.jpg" alt="Card image cap">
+              <div class="overlay youtube-bg-color">
+                <div class="img-text">Click to watch the video</div>
+              </div>
+            </a>
+            <span class="card-des-home">Malayala Manorama | 19-11-18</span>
+          </div>
+          <div class="card carousel-cell" style="width: 18rem;">
+            <a href="#" class="media-img-hover"><img class="card-img-top" src="img/test.jpg" alt="Card image cap">
+              <div class="overlay youtube-bg-color">
+                <div class="img-text">Click to watch the video</div>
+              </div>
+            </a>
+            <span class="card-des-home">Mathrubhumi | 18-11-18</span>
+          </div>
+          <div class="card carousel-cell" style="width: 18rem;">
+            <a href="#" class="media-img-hover"><img class="card-img-top" src="img/test.jpg" alt="Card image cap">
+              <div class="overlay youtube-bg-color">
+                <div class="img-text">Click to watch the video</div>
+              </div>
+            </a>
+            <span class="card-des-home">Times of India | 18-11-18</span>
+          </div>
+        </div>
       </div>
-    </nav>
-    <ul class="nav nav-tabs nav-bg-color">
-      <li class="nav-item">
-        <a class="nav-link nav-item-home" href="media-home.html"><span class="dsk-display">Home</span><i class="far fa-newspaper mb-display"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="media-youtube.html"><span class="dsk-display font-bold-youtube">YouTube</span><i class="fab fa-youtube mb-display youtube-icon-color"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav-item-facebook" href="media-facebook.html"><span class="dsk-display">Facebook</span><i class="fab fa-facebook-f mb-display"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav-item-instagram" href="media-instagram.html"><span class="dsk-display">Instagram</span><i class="fab fa-instagram mb-display"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav-item-twitter" href="media-twitter.html"><span class="dsk-display">Twitter</span><i class="fab fa-twitter mb-display"></i></a>
-      </li>
-    </ul>
+      <hr/>
+      <div class="carousel-wrapper top-135 margin-bottom-16">
+        <h4 class="padding-left-10 youtube-icon-color">Uploaded by Us</h4>
+        <div class="carousel" data-flickity='{ "initialIndex": 2 }'>
+          <div class="card carousel-cell" style="width: 18rem;">
+            <a href="#" class="media-img-hover"><img class="card-img-top" src="img/test.jpg" alt="Card image cap">
+              <div class="overlay youtube-bg-color">
+                <div class="img-text">Click to watch the article</div>
+              </div>
+            </a>
+            <span class="card-des-home">Times of India | 18-11-18</span>
+          </div>
+          <div class="card carousel-cell" style="width: 18rem;">
+            <a href="#" class="media-img-hover"><img class="card-img-top" src="img/test.jpg" alt="Card image cap">
+              <div class="overlay youtube-bg-color">
+                <div class="img-text">Click to watch the article</div>
+              </div>
+            </a>
+            <span class="card-des-home">The Hindu | 20-11-18</span>
+          </div>
+          <div class="card carousel-cell" style="width: 18rem;">
+            <a href="#" class="media-img-hover"><img class="card-img-top" src="img/test.jpg" alt="Card image cap">
+              <div class="overlay youtube-bg-color">
+                <div class="img-text">Click to watch the article</div>
+              </div>
+            </a>
+            <span class="card-des-home">Malayala Manorama | 19-11-18</span>
+          </div>
+          <div class="card carousel-cell" style="width: 18rem;">
+            <a href="#" class="media-img-hover"><img class="card-img-top" src="img/test.jpg" alt="Card image cap">
+              <div class="overlay youtube-bg-color">
+                <div class="img-text">Click to watch the article</div>
+              </div>
+            </a>
+            <span class="card-des-home">Mathrubhumi | 18-11-18</span>
+          </div>
+          <div class="card carousel-cell" style="width: 18rem;">
+            <a href="#" class="media-img-hover"><img class="card-img-top" src="img/test.jpg" alt="Card image cap">
+              <div class="overlay youtube-bg-color">
+                <div class="img-text">Click to watch the article</div>
+              </div>
+            </a>
+            <span class="card-des-home">Times of India | 18-11-18</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
     <script src="js/javascript.js"></script>
   </body>
 </html>
