@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mother Teresa - Tribute Page</title>
+    <style>
+      html, body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
+        background-color: #dadfe1;
+      }
+      .container {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-areas: ". content .";
+      }
+      #main {
+        grid-area: content;
+      }
+      #title-with-quote {
+        background-color: #e4f1fe;
+        height: auto;
+      }
+      #title {
+        font-size: 2.5em;
+        padding-top: 10px;
+        margin-top: 0px;
+      }
+      #mother-teresa-quote {
+        font-weight: bold;
+        font-size: 1.1em;
+        padding-bottom: 15px;
+      }
+      #img-div {
+        margin-top: 30px;
+      }
+      #image {
+        width: 900px;
+        height: auto;
+      }
+      #img-caption {
+        padding-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <div id="main">
+        <div id="title-with-quote">
+          <h1 id="title">Mother Teresa</h1>
+          <p id="mother-teresa-quote"><q>I'm a little pencil in the hand of a writing God, who is sending a love letter to the world.</q> - Mother Teresa</p>
+        </div>
+        <div id="img-div">
+          <img id="image" src="img/mother-teresa.jpg" alt="Mother Teresa playing with a disabled kid">
+          <div id="img-caption">
+            The wrinkled smiling face shining out from her blue trimmed white religious robes surrounded by poverty stricken children and people of the streets of Calcutta is one of the most enduring images of Mother Teresa.
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
