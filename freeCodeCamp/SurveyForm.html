@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Random Survey Form</title>
+    <style>
+      html, body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: #1f3a93;
+      }
+      .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+      }
+      #main {
+        grid-area: 1/ 2/ 2/ 3;
+        background-color: #ffffff;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0 10px 10px 10px;
+      }
+      #title {
+        text-align: center;
+      }
+      #description {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: right;
+      }
+      .input-field {
+        height: 20px;
+        width: 280px;
+        padding: 5px;
+        margin: 0 0 20px 10px;
+        border: 1px solid #c0c0c0;
+        border-radius: 2px;
+      }
+      #name-label {
+        margin-top: 5px;
+      }
+      #email-label {
+        margin-top: 5px;
+      }
+      #number-label {
+        margin-top: 5px;
+      }
+      .ul-style {
+        list-style: none;
+        text-align: left;
+        margin-top: 0px;
+      }
+      .gender, input[type="checkbox"] {
+        float: left;
+        margin-right: 5px;
+      }
+      .radio, .checkbox {
+        position: relative;
+        left: -43px;
+        margin-left: 10px;
+        display: block;
+        padding-bottom: 10px;
+      }
+      .dropdown {
+        height: 35px;
+        width: 180px;
+        padding: 5px;
+        margin: 0 0 20px 10px;
+        border: 1px solid #c0c0c0;
+        border-radius: 2px;
+      }
+      #dropdown-label {
+        margin-top: 5px;
+      }
+      #other-interests {
+        height: 60px;
+        resize: vertical;
+      }
+      #submit {
+        background-color: #446cb3;
+        border-radius: 4px;
+        color: white;
+        font-size: 1em;
+        height: 40px;
+        width: 96px;
+        margin: 10px;
+        border: 0px solid;
+      }
+      #submit:hover {
+        background-color: #1f3a93;
+      }
+      .submit-button {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="main">
+        <h1 id="title">Random Survey Form</h1>
+        <p id="description">
+          A random survey I want you to submit. This survey will help me understand the kind of people visiting this page.
+        </p>
+        <form id="survey-form">
+          <div class="row">
+            <label id="name-label" for="name">Name* : </label>
+            <input id="name" type="text" name="name" class="input-field" placeholder="Enter your name here..." required>
+          </div>
+          <div class="row">
+            <label id="email-label" for="email">Email* : </label>
+            <input id="email" type="email" name="email" class="input-field" placeholder="Enter your email id here..." required>
+          </div>
+          <div class="row">
+            <label id="number-label" for="age">Age* : </label>
+            <input id="number" type="number" name="age" min="1" max="125" class="input-field" placeholder="Enter your age here..." required>
+          </div>
+          <div class="row">
+            <label id="gender-label" for="gender">Gender* : </label>
+            <ul class="ul-style">
+              <li class="radio"><label>Male<input name="gender" value="1" type="radio" class="gender" required></label></li>
+              <li class="radio"><label>Female<input name="gender" value="2" type="radio" class="gender"></label></li>
+              <li class="radio"><label>Other<input name="gender" value="3" type="radio" class="gender"></label></li>
+            </ul>
+          </div>
+          <div class="row">
+            <label id="dropdown-label" for="currentPos">Education level completed : </label>
+            <select id="dropdown" name="eduLevel" class="dropdown">
+              <option value>Select an option</option>
+              <option value="student">Less than HS diploma</option>
+              <option value="job">High school</option>
+              <option value="learner">Some college</option>
+              <option value="preferNo">Bachelors degree</option>
+              <option value="other">Graduate degree</option>
+            </select>
+          </div>
+          <div class="row">
+            <label for="interests">What are your interests? (check all that apply) : </label>
+            <ul id="interests" class="ul-style">
+              <li class="checkbox"><label><input name="interest" value="1" type="checkbox" class="userRatings">Arts & Entertainment</label></li>
+              <li class="checkbox"><label><input name="interest" value="2" type="checkbox" class="userRatings">Autos & Vehicles</label></li>
+              <li class="checkbox"><label><input name="interest" value="3" type="checkbox" class="userRatings">Beauty & Fitness</label></li>
+              <li class="checkbox"><label><input name="interest" value="4" type="checkbox" class="userRatings">Books & Literature</label></li>
+              <li class="checkbox"><label><input name="interest" value="5" type="checkbox" class="userRatings">Business & Industrial</label></li>
+              <li class="checkbox"><label><input name="interest" value="6" type="checkbox" class="userRatings">Computers & Electronics</label></li>
+              <li class="checkbox"><label><input name="interest" value="7" type="checkbox" class="userRatings">Finance</label></li>
+              <li class="checkbox"><label><input name="interest" value="8" type="checkbox" class="userRatings">Food & Drink</label></li>
+              <li class="checkbox"><label><input name="interest" value="9" type="checkbox" class="userRatings">Games</label></li>
+              <li class="checkbox"><label><input name="interest" value="10" type="checkbox" class="userRatings">Hobbies & Leisure</label></li>
+              <li class="checkbox"><label><input name="interest" value="11" type="checkbox" class="userRatings">Home & Garden</label></li>
+              <li class="checkbox"><label><input name="interest" value="12" type="checkbox" class="userRatings">Internet & Telecom</label></li>
+              <li class="checkbox"><label><input name="interest" value="13" type="checkbox" class="userRatings">Jobs & Education</label></li>
+              <li class="checkbox"><label><input name="interest" value="14" type="checkbox" class="userRatings">Law & Government</label></li>
+              <li class="checkbox"><label><input name="interest" value="15" type="checkbox" class="userRatings">News</label></li>
+              <li class="checkbox"><label><input name="interest" value="16" type="checkbox" class="userRatings">Online Communities</label></li>
+              <li class="checkbox"><label><input name="interest" value="17" type="checkbox" class="userRatings">People & Society</label></li>
+              <li class="checkbox"><label><input name="interest" value="18" type="checkbox" class="userRatings">Pets & Animals</label></li>
+              <li class="checkbox"><label><input name="interest" value="19" type="checkbox" class="userRatings">Real Estate</label></li>
+              <li class="checkbox"><label><input name="interest" value="20" type="checkbox" class="userRatings">Reference</label></li>
+              <li class="checkbox"><label><input name="interest" value="21" type="checkbox" class="userRatings">Science</label></li>
+              <li class="checkbox"><label><input name="interest" value="22" type="checkbox" class="userRatings">Shopping</label></li>
+              <li class="checkbox"><label><input name="interest" value="23" type="checkbox" class="userRatings">Sports</label></li>
+              <li class="checkbox"><label><input name="interest" value="24" type="checkbox" class="userRatings">Travel</label></li>
+              <li class="checkbox"><label><input name="interest" value="25" type="checkbox" class="userRatings">World Localities</label></li>
+            </ul>
+          </div>
+          <div class="row">
+            <label for="other-interests">Type down your other specific interests we have missed out here : </label>
+            <textarea id="other-interests" class="input-field" name="comment" placeholder="Enter your other interests here..."></textarea>
+          </div>
+          <div class="submit-button">
+            <button id="submit" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
