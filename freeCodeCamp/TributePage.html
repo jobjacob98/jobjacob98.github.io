@@ -2,26 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Mother Teresa - Tribute Page</title>
-    <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style media="screen">
       html, body {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        text-align: center;
         background-color: #dadfe1;
       }
-      .container {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 4fr 1fr;
-        grid-template-areas: ". content .";
-      }
-      #main {
-        grid-area: content;
-      }
       #title-with-quote {
+        text-align: center;
         background-color: #e4f1fe;
-        height: auto;
-        padding: 10px;
+        padding: 8px 10px 1px 10px;
+        margin: 10px 0 10px 0;
       }
       #title {
         font-size: 2.5em;
@@ -30,69 +21,102 @@
       #mother-teresa-quote {
         font-weight: bold;
         font-size: 1.1em;
+        opacity: 0.8;
       }
       #img-div {
-        margin-top: 15px;
+        text-align: center;
       }
       #image {
         max-width: 100%;
         display: block;
         height: auto;
+        margin-left: auto;
+        margin-right: auto;
       }
       #img-caption {
-        padding-top: 5px;
-        padding-bottom: 15px;
+        margin: 4px 0 0 0;
+        padding: 0 10px 0 10px;
       }
       #tribute-info {
         text-align: justify;
         font-size: 1.1em;
-        padding: 1px 10px 1px 10px;
+        padding: 6px 12px 6px 12px;
         background-color: #e4f1fe;
+        margin: 10px 0 10px 0;
       }
       .tribute-link {
         text-align: center;
+        padding: 2px 0 10px 0;
       }
-      @media (max-width: 1050px) {
-        .container {
-          width: 100%;
-          display: grid;
-          grid-template-columns: 1fr;
-          grid-template-areas: "content";
+      #tribute-link:hover {
+        color: #000000;
+        opacity: 0.8;
+        text-decoration: none;
+      }
+      @media (max-width: 1199.98px) {
+        #title-with-quote {
+          text-align: center;
+          padding: 8px 10 1px 10;
+          background-color: #e4f1fe;
+          margin: 10px auto;
+          max-width: 1024px;
         }
-        #main {
-          grid-area: content;
+        #img-caption {
+          margin: 4px auto;
+          padding: 0 10px 0 10px;
+          max-width: 1024px;
+        }
+        #tribute-info {
+          text-align: justify;
+          font-size: 1.1em;
+          padding: 6px 12px 6px 12px;
+          background-color: #e4f1fe;
+          margin: 10px auto;
+          max-width: 1024px;
         }
       }
     </style>
+    <title>Mother Teresa - Tribute Page</title>
   </head>
   <body>
-    <div class="container">
-      <div id="main">
-        <div id="title-with-quote">
-          <h1 id="title">Mother Teresa</h1>
-          <p id="mother-teresa-quote"><q>I'm a little pencil in the hand of a writing God, who is sending a love letter to the world.</q> - Mother Teresa</p>
+    <div id="main" class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col col-lg-12 col-xl-8">
+          <div id="title-with-quote">
+            <h1 id="title">Mother Teresa</h1>
+            <p id="mother-teresa-quote"><q>I'm a little pencil in the hand of a writing God, who is sending a love letter to the world.</q> - Mother Teresa</p>
+          </div>
         </div>
-        <div id="img-div">
+      </div>
+      <div class="row justify-content-center">
+        <div id="img-div" class="col col-xl-8">
           <img id="image" src="img/mother-teresa.jpg" alt="Mother Teresa playing with a disabled kid">
           <div id="img-caption">
             The wrinkled smiling face shining out from her blue trimmed white religious robes surrounded by poverty stricken children and people of the streets of Calcutta is one of the most enduring images of Mother Teresa.
           </div>
         </div>
-        <div id="tribute-info">
-          <p>Mother Teresa was the founder of the Order of the Missionaries of Charity, a Roman Catholic congregation of women dedicated to helping the poor. Considered one of the 20th Century's greatest humanitarians, she was canonized as Saint Teresa of Calcutta in 2016.</p>
-          <ul>
-            <li><strong>Who Was Mother Teresa?</strong><br><p>Nun and missionary Mother Teresa, known in the Catholic church as Saint Teresa of Calcutta, devoted her life to caring for the sick and poor. Born in Macedonia to parents of Albanian-descent and having taught in India for 17 years, Mother Teresa experienced her "call within a call" in 1946. Her order established a hospice; centers for the blind, aged and disabled; and a leper colony. In 1979 she received the Nobel Peace Prize for her humanitarian work. She died in September 1997 and was beatified in October 2003. In December 2015, Pope Francis recognized a second miracle attributed to Mother Teresa, clearing the way for her to be canonized on September 4, 2016.</p></li>
-            <li><strong>When and Where Was Mother Teresa Born?</strong><br><p>Mother Teresa was born on August 26, 1910, in Skopje, the current capital of the Republic of Macedonia. The following day, she was baptized as Agnes Gonxha Bojaxhiu.</p></li>
-            <li><strong>When and Where did Mother Teresa Die?</strong><br><p>After several years of deteriorating health, including heart, lung and kidney problems, Mother Teresa died on September 5, 1997, at the age of 87.</p></li>
-            <li><strong>'Call Within a Call'</strong><br><p>On September 10, 1946, Mother Teresa experienced a second calling, the "call within a call" that would forever transform her life. She was riding in a train from Calcutta to the Himalayan foothills for a retreat when she said Christ spoke to her and told her to abandon teaching to work in the slums of Calcutta aiding the city's poorest and sickest people.</p><p>Since Mother Teresa had taken a vow of obedience, she could not leave her convent without official permission. After nearly a year and a half of lobbying, in January 1948 she finally received approval to pursue this new calling. That August, donning the blue-and-white sari that she would wear in public for the rest of her life, she left the Loreto convent and wandered out into the city. After six months of basic medical training, she voyaged for the first time into Calcutta's slums with no more specific a goal than to aid "the unwanted, the unloved, the uncared for."
-            </p></li>
-            <li><strong>Missionaries of Charity</strong><br><p>Mother Teresa quickly translated her calling into concrete actions to help the city's poor. She began an open-air school and established a home for the dying destitute in a dilapidated building she convinced the city government to donate to her cause. In October 1950, she won canonical recognition for a new congregation, the Missionaries of Charity, which she founded with only a handful of members—most of them former teachers or pupils from St. Mary's School.</p><p>As the ranks of her congregation swelled and donations poured in from around India and across the globe, the scope of Mother Teresa's charitable activities expanded exponentially. Over the course of the 1950s and 1960s, she established a leper colony, an orphanage, a nursing home, a family clinic and a string of mobile health clinics.</p><p>In 1971, Mother Teresa traveled to New York City to open her first American-based house of charity, and in the summer of 1982, she secretly went to Beirut, Lebanon, where she crossed between Christian East Beirut and Muslim West Beirut to aid children of both faiths. In 1985, Mother Teresa returned to New York and spoke at the 40th anniversary of the United Nations General Assembly. While there, she also opened Gift of Love, a home to care for those infected with HIV/AIDS.
-            </p></li>
-            <li><strong>Mother Teresa’s Awards and Recognition</strong><br><p>In February 1965, Pope Paul VI bestowed the Decree of Praise upon the Missionaries of Charity, which prompted Mother Teresa to begin expanding internationally. By the time of her death in 1997, the Missionaries of Charity numbered more than 4,000 — in addition to thousands more lay volunteers — with 610 foundations in 123 countries around the world.</p><p>The Decree of Praise was just the beginning, as Mother Teresa received various honors for her tireless and effective charity. She was awarded the Jewel of India, the highest honor bestowed on Indian civilians, as well as the now-defunct Soviet Union's Gold Medal of the Soviet Peace Committee. In 1979, Mother Teresa was awarded the Nobel Peace Prize in recognition of her work "in bringing help to suffering humanity."</p></li>
-          </ul>
-          <h3 class="tribute-link">To know more about this wonderful woman, visit her <a id="tribute-link" href="https://en.wikipedia.org/wiki/Mother_Teresa" target="_blank">Wikipedia entry</a>.</h3>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col col-xl-8">
+          <div id="tribute-info">
+            <p>Mother Teresa was the founder of the Order of the Missionaries of Charity, a Roman Catholic congregation of women dedicated to helping the poor. Considered one of the 20th Century's greatest humanitarians, she was canonized as Saint Teresa of Calcutta in 2016.</p>
+            <ul>
+              <li><strong>Who Was Mother Teresa?</strong><br><p>Nun and missionary Mother Teresa, known in the Catholic church as Saint Teresa of Calcutta, devoted her life to caring for the sick and poor. Born in Macedonia to parents of Albanian-descent and having taught in India for 17 years, Mother Teresa experienced her "call within a call" in 1946. Her order established a hospice; centers for the blind, aged and disabled; and a leper colony. In 1979 she received the Nobel Peace Prize for her humanitarian work. She died in September 1997 and was beatified in October 2003. In December 2015, Pope Francis recognized a second miracle attributed to Mother Teresa, clearing the way for her to be canonized on September 4, 2016.</p></li>
+              <li><strong>When and Where Was Mother Teresa Born?</strong><br><p>Mother Teresa was born on August 26, 1910, in Skopje, the current capital of the Republic of Macedonia. The following day, she was baptized as Agnes Gonxha Bojaxhiu.</p></li>
+              <li><strong>When and Where did Mother Teresa Die?</strong><br><p>After several years of deteriorating health, including heart, lung and kidney problems, Mother Teresa died on September 5, 1997, at the age of 87.</p></li>
+              <li><strong>'Call Within a Call'</strong><br><p>On September 10, 1946, Mother Teresa experienced a second calling, the "call within a call" that would forever transform her life. She was riding in a train from Calcutta to the Himalayan foothills for a retreat when she said Christ spoke to her and told her to abandon teaching to work in the slums of Calcutta aiding the city's poorest and sickest people.</p><p>Since Mother Teresa had taken a vow of obedience, she could not leave her convent without official permission. After nearly a year and a half of lobbying, in January 1948 she finally received approval to pursue this new calling. That August, donning the blue-and-white sari that she would wear in public for the rest of her life, she left the Loreto convent and wandered out into the city. After six months of basic medical training, she voyaged for the first time into Calcutta's slums with no more specific a goal than to aid "the unwanted, the unloved, the uncared for."
+              </p></li>
+              <li><strong>Missionaries of Charity</strong><br><p>Mother Teresa quickly translated her calling into concrete actions to help the city's poor. She began an open-air school and established a home for the dying destitute in a dilapidated building she convinced the city government to donate to her cause. In October 1950, she won canonical recognition for a new congregation, the Missionaries of Charity, which she founded with only a handful of members—most of them former teachers or pupils from St. Mary's School.</p><p>As the ranks of her congregation swelled and donations poured in from around India and across the globe, the scope of Mother Teresa's charitable activities expanded exponentially. Over the course of the 1950s and 1960s, she established a leper colony, an orphanage, a nursing home, a family clinic and a string of mobile health clinics.</p><p>In 1971, Mother Teresa traveled to New York City to open her first American-based house of charity, and in the summer of 1982, she secretly went to Beirut, Lebanon, where she crossed between Christian East Beirut and Muslim West Beirut to aid children of both faiths. In 1985, Mother Teresa returned to New York and spoke at the 40th anniversary of the United Nations General Assembly. While there, she also opened Gift of Love, a home to care for those infected with HIV/AIDS.
+              </p></li>
+              <li><strong>Mother Teresa’s Awards and Recognition</strong><br><p>In February 1965, Pope Paul VI bestowed the Decree of Praise upon the Missionaries of Charity, which prompted Mother Teresa to begin expanding internationally. By the time of her death in 1997, the Missionaries of Charity numbered more than 4,000 — in addition to thousands more lay volunteers — with 610 foundations in 123 countries around the world.</p><p>The Decree of Praise was just the beginning, as Mother Teresa received various honors for her tireless and effective charity. She was awarded the Jewel of India, the highest honor bestowed on Indian civilians, as well as the now-defunct Soviet Union's Gold Medal of the Soviet Peace Committee. In 1979, Mother Teresa was awarded the Nobel Peace Prize in recognition of her work "in bringing help to suffering humanity."</p></li>
+            </ul>
+            <h4 class="tribute-link">To know more about this wonderful woman, visit her <a id="tribute-link" href="https://en.wikipedia.org/wiki/Mother_Teresa" target="_blank">Wikipedia entry</a>.</h4>
+          </div>
         </div>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
