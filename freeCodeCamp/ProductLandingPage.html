@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <style media="screen">
+      #header-img {
+        width: 63px;
+        height: 30px;
+      }
+      .logo-text {
+        opacity: 0.7;
+      }
+      .navbar-list-styles {
+        margin-left: auto;
+      }
+      .subcribe {
+        padding: 5px;
+        margin: 126px 0 10px 0;
+      }
+      text-center {
+        text-align: center;
+      }
+      #form {
+        min-width: 500px;
+        height: auto;
+      }
+      #features {
+        justify-content: center;
+        padding: 60px 0 60px 0;
+      }
+      #how-edx-works {
+        margin: 20px 0 20px 0;
+        width: 100%;
+      }
+      .grid {
+        display: flex;
+        margin: 30px 0 30px 0;
+      }
+      .icon {
+        color: #007bff;
+      }
+      .icon-size {
+        font-size: 500%;
+      }
+      p {
+        text-align: justify;
+      }
+      #more-info {
+        background-color: #f8f9fa;
+        height: 100px;
+        width: 100%;
+        margin-top: 90px;
+      }
+      .link {
+        margin-top: 30px;
+      }
+      @media (max-width: 991.98px) {
+        .subcribe {
+          padding: 5px;
+          margin: 121px 0 5px 0;
+        }
+      }
+      @media (max-width: 767.98px) {
+        .icon {
+          color: #007bff;
+          padding-bottom: 20px;
+          text-align: center;
+        }
+      }
+      @media (max-width: 576px) {
+        #form {
+          min-width: 250px;
+        }
+        .link {
+          margin-top: 20px;
+        }
+      }
+    </style>
+    <title>edX Replica | Product Landing Page | freeCodeCamp</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+          <img id="header-img" src="img/edx-logo.png" class="d-inline-block align-top" alt="edX logo">
+          <strong class="logo-text">Replica</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar-list-styles">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#how-edx-works">How edX Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#more-info">More Info</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="row justify-content-center subcribe">
+        <h5 class="text-center">Subscribe for our newsletters to know about our latest courses</h5>
+      </div>
+      <div class="row justify-content-center">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address...">
+          </div>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div id="features" class="container">
+      <div class="row justify-content-center grid">
+        <div class="icon col-md-2">
+          <i class="fa fa-clock icon-size"></i>
+        </div>
+        <div class="col-md-10">
+          <h5>Learn at your own pace, anytime, anywhere</h5>
+          <p>Our courses are up 24x7. You can learn our courses at anytime of the day from anywhere in the world with a good internet access.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center grid">
+        <div class="icon col-md-2">
+          <i class="fa fa-university icon-size"></i>
+        </div>
+        <div class="col-md-10">
+          <h5>Free courses from top universities</h5>
+          <p>Our courses are offered by the best universities around the world and they are absolutely free!!</p>
+        </div>
+      </div>
+      <div class="row justify-content-center grid">
+        <div class="icon col-md-2">
+          <i class="fas fa-globe icon-size"></i>
+        </div>
+        <div class="col-md-10">
+          <h5>Learn from around the world</h5>
+          <p>Our classrooms are filled with students from all around the world. Interact with each other and learn the uniqueness and similarities of your viewpoints.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div id="how-edx-works" class="row justify-content-center">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/B-EFayAA5_0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div id="more-info" class="container-fluid">
+      <div class="row justify-content-center">
+        <h5 class="link text-center">For more info, visit our <a id="tribute-link" href="https://www.edx.org/" target="_blank">official website</a>.</h5>
+      </div>
+    </div>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
