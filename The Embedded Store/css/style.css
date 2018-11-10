@@ -117,3 +117,17 @@ html, body {
 .forgot-password-div {
   padding: 200px 0 0 220px;
 }
+@media (max-width: 575.98px) {
+  .search-btn {
+    width: 100%;
+  }
+}
+@media (max-width: 575.98px) {
+
+}
+@media (min-width: 576px) and (max-width: 1199.98px) {
+
+}
+@media (min-width: 1240px) {
+
+}
