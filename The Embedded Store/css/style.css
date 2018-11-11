@@ -114,6 +114,12 @@ html, body {
 .reset-top-padding {
   padding-top: 10%;
 }
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 @media (min-width: 576px) {
   .btn-padding {
     padding-top: 8px;
@@ -162,6 +168,6 @@ html, body {
     display: none !important;
   }
   .padding-fixed-top {
-    display: none;
+    padding-top: 0px;
   }
 }
