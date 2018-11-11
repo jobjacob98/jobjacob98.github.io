@@ -92,9 +92,6 @@ html, body {
   color: #ffffff;
   text-align: center;
 }
-.footer {
-  height: 98px;
-}
 .hyperlink {
   padding-left: 20px;
 }
@@ -114,12 +111,18 @@ html, body {
 .signup-div {
   padding: 100px 0 0 280px;
 }
-.forgot-password-div {
-  padding: 200px 0 0 220px;
+.reset-top-padding {
+  padding-top: 10%;
 }
-@media (max-width: 575.98px) {
-  .search-btn {
-    width: 100%;
+@media (min-width: 576px) {
+  .btn-padding {
+    padding-top: 8px;
+  }
+  .email-input {
+    width: 300px !important;
+  }
+  .reset-btn {
+    width: 300px;
   }
 }
 @media (max-width: 575.98px) {
@@ -129,6 +132,9 @@ html, body {
   }
   .padding-fixed-top {
     padding-top: 167px;
+  }
+  .sm-width-100 {
+    width: 100%;
   }
 }
 @media (min-width: 576px) and (max-width: 991.98px) {
