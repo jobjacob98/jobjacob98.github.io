@@ -125,7 +125,7 @@ html, body {
 @media (max-width: 575.98px) {
   .brand-font {
       font-family: 'Vollkorn', serif;
-      font-size: 24px;
+      font-size: 22px;
   }
 }
 @media (min-width: 576px) and (max-width: 1199.98px) {
