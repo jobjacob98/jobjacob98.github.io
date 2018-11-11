@@ -31,7 +31,7 @@
   background-color: transparent;
 }
 .divider {
-  border: 1px solid rgba(0,0,0,.0625);
+  border: 1px solid rgba(0, 0, 0, .0625);
 }
 .color-white {
   color: #ffffff;
@@ -127,9 +127,14 @@ html, body {
       font-family: 'Vollkorn', serif;
       font-size: 22px;
   }
+  .padding-fixed-top {
+    padding-top: 167px;
+  }
 }
-@media (min-width: 576px) and (max-width: 1199.98px) {
-
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .padding-fixed-top {
+    padding-top: 117px;
+  }
 }
 @media (min-width: 992px) {
   .cart-btn-top {
