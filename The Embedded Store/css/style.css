@@ -137,7 +137,7 @@ html, body {
     width: 100%;
   }
   .reset-top-padding {
-    padding-top: 0%;
+    padding-top: 25%;
   }
 }
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -149,9 +149,19 @@ html, body {
   .cart-btn-top {
     display: none !important;
   }
+  .nav-pos {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index:1030;
+  }
 }
 @media (max-width: 991.98px) {
   .cart-btn-bottom {
     display: none !important;
+  }
+  .padding-fixed-top {
+    padding-top: 0px;
   }
 }
