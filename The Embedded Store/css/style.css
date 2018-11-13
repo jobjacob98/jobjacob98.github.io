@@ -146,7 +146,7 @@ html, body {
   }
   .signup-style {
     padding-top: 22%;
-    height: 165%;
+    height: 180%;
   }
 }
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -154,8 +154,8 @@ html, body {
     padding-top: 117px;
   }
   .signup-style {
-    padding-top: 20%;
-    height: 85%;
+    padding-top: 22%;
+    height: 165%;
   }
 }
 @media (min-width: 992px) {
