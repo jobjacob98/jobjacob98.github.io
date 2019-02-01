@@ -6,3 +6,4 @@ View Projects:
 - Personal Portfolio (freeCodeCamp project) https://jobjacob98.github.io/freeCodeCamp/PersonalPortfolio
 - Product Landing Page (freeCodeCamp project) https://jobjacob98.github.io/freeCodeCamp/ProductLandingPage
 - Interest Survey Form (freeCodeCamp project) https://jobjacob98.github.io/freeCodeCamp/SurveyForm
+- Tribute Page (freeCodeCamp project) https://jobjacob98.github.io/freeCodeCamp/TributePage
