@@ -7,3 +7,4 @@ View Projects:
 - Product Landing Page (freeCodeCamp project) https://jobjacob98.github.io/freeCodeCamp/ProductLandingPage
 - Interest Survey Form (freeCodeCamp project) https://jobjacob98.github.io/freeCodeCamp/SurveyForm
 - Tribute Page (freeCodeCamp project) https://jobjacob98.github.io/freeCodeCamp/TributePage
+- Technical Documentation (freeCodeCamp project) https://jobjacob98.github.io/freeCodeCamp/TechnicalDocumentation
